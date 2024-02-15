@@ -17,7 +17,7 @@ const LoginPage = () => {
     const { data, error } = await supabase.auth.signInWithOtp({
       email: emailAddress,
       options: {
-        emailRedirectTo: "https://interactive-board.netlify.app",
+        emailRedirectTo: "https://interactive-board-seven.vercel.app/",
       },
     });
 
