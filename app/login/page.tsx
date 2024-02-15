@@ -17,13 +17,13 @@ const LoginPage = () => {
     const { data, error } = await supabase.auth.signInWithOtp({
       email: emailAddress,
       options: {
-        emailRedirectTo: window.location.origin,
+        emailRedirectTo: "https://interactive-board.netlify.app",
       },
     });
 
     if (error) {
       console.error(error);
-        throw new Error("Something went wrong");
+      throw new Error("Something went wrong");
     }
 
     if (data) {
