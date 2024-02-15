@@ -1,7 +1,0 @@
-{
-  "/_not-found": "app/_not-found.js",
-  "/login/page": "app/login/page.js",
-  "/page": "app/page.js",
-  "/room/[roomId]/page": "app/room/[roomId]/page.js",
-  "/api/generate-user-video-instance/route": "app/api/generate-user-video-instance/route.js"
-}
